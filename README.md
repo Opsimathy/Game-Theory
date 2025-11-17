@@ -87,9 +87,10 @@ The `Codes/` directory contains well-documented Python implementations of fundam
 - Classic game examples (Prisoner's Dilemma, Rock-Paper-Scissors, Kuhn Poker, etc.)
 
 #### Equilibrium Computation
-- **Support Enumeration**: Exact solver for small games
+- **Support Enumeration**: Exact solver for all Nash equilibria
 - **Linear Programming**: Efficient solver for zero-sum games
-- Finds all Nash equilibria in two-player games
+- **Correlated Equilibrium**: Welfare-maximizing coordination mechanisms
+- **Stackelberg Equilibrium**: Leader-follower games and security applications
 
 #### Regret Minimization
 - **Regret Matching**: Online learning with no-regret guarantees
@@ -115,6 +116,31 @@ The `Codes/` directory contains well-documented Python implementations of fundam
 - **Fictitious Play**: Classic learning dynamics in repeated games
 - **Q-Learning**: Value-based reinforcement learning for games
 - Convergence analysis and equilibrium finding
+
+#### Evolutionary Game Theory
+- **Replicator Dynamics**: Models evolution of strategy frequencies in populations
+- **ESS (Evolutionarily Stable Strategy)**: Analysis of evolutionary stability
+- Classic games: Hawk-Dove, Rock-Paper-Scissors population dynamics
+
+#### Cooperative Games
+- **Shapley Value**: Fair allocation based on marginal contributions
+- **Coalitional Games**: Glove game, weighted voting, airport cost-sharing
+- Applications in ML interpretability (SHAP values)
+
+#### Matching Markets
+- **Gale-Shapley Algorithm**: Stable matching via deferred acceptance
+- **Stable Marriage Problem**: Two-sided matching with preferences
+- Real-world applications: Medical residency (NRMP), school choice
+
+#### Multi-Armed Bandits
+- **UCB1**: Upper Confidence Bound for stochastic bandits (O(log T) regret)
+- **EXP3**: Exponential-weight algorithm for adversarial settings
+- Applications: Clinical trials, online advertising, recommendation systems
+
+#### Repeated Games
+- **Classic Strategies**: Tit-for-Tat, Grim Trigger, Pavlov, Always Cooperate/Defect
+- **Tournament Simulation**: Round-robin competition framework
+- Axelrod tournaments and the emergence of cooperation
 
 Each implementation includes:
 - Comprehensive documentation and references

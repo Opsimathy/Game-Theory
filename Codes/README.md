@@ -4,12 +4,12 @@ This directory contains well-documented implementations of fundamental and advan
 
 ## Directory Structure
 
-### 1. `equilibrium/` - Nash Equilibrium Computation
-Algorithms for computing Nash equilibria in various game types:
-- **Support Enumeration**: Exact algorithm for small games
-- **Linear Programming**: Solver for zero-sum games
-- **Lemke-Howson**: Algorithm for two-player games
-- **Best Response Iteration**: Simple iterative method
+### 1. `equilibrium/` - Equilibrium Computation
+Algorithms for computing various equilibrium concepts:
+- **Support Enumeration**: Exact algorithm for finding all Nash equilibria
+- **Linear Programming**: Efficient solver for zero-sum games
+- **Correlated Equilibrium**: LP-based solver for welfare-maximizing CE
+- **Stackelberg Equilibrium**: Leader-follower game solver (security games)
 
 ### 2. `regret_minimization/` - Regret Minimization Algorithms
 Core algorithms for online learning and large game solving:
@@ -49,8 +49,39 @@ Learning algorithms for game-theoretic settings:
 Common game implementations and utilities:
 - **Normal-Form Games**: Matrix game representation
 - **Extensive-Form Games**: Game tree representation
-- **Poker Games**: Simplified poker variants
+- **Poker Games**: Simplified poker variants (Kuhn Poker)
 - **Utility Functions**: Common game utilities
+
+### 8. `evolutionary/` - Evolutionary Game Theory
+Evolutionary dynamics and stable strategies:
+- **Replicator Dynamics**: Population strategy evolution
+- **ESS (Evolutionarily Stable Strategy)**: Stability analysis
+- **Hawk-Dove and other biological games**
+
+### 9. `cooperative/` - Cooperative Games
+Coalitional game theory and solution concepts:
+- **Shapley Value**: Fair profit/cost allocation
+- **Core**: Stable coalition structures
+- **Examples**: Glove game, voting games, airport game
+
+### 10. `matching/` - Matching Markets
+Stable matching algorithms:
+- **Gale-Shapley Algorithm**: Deferred acceptance algorithm
+- **Stable Marriage Problem**: Two-sided matching
+- **Applications**: Medical residency, school choice
+
+### 11. `bandits/` - Multi-Armed Bandits
+Exploration-exploitation algorithms:
+- **UCB1**: Upper Confidence Bound for stochastic bandits
+- **EXP3**: Exponential-weight algorithm for adversarial bandits
+- **Applications**: Clinical trials, online advertising
+
+### 12. `repeated_games/` - Repeated Game Strategies
+Strategies for infinitely repeated games:
+- **Tit-for-Tat**: Copy opponent's last move
+- **Grim Trigger**: Permanent punishment
+- **Pavlov**: Win-stay, lose-shift
+- **Tournament simulation**: Round-robin competitions
 
 ## Requirements
 
