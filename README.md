@@ -77,6 +77,79 @@ The `Seminar/` directory contains research papers on cutting-edge topics in:
 - Game-theoretic analysis and applications
 - Advanced algorithmic techniques
 
+### 💻 Codes
+
+The `Codes/` directory contains well-documented Python implementations of fundamental algorithms:
+
+#### Game Representations
+- Normal-form (matrix) games
+- Extensive-form (game tree) games
+- Classic game examples (Prisoner's Dilemma, Rock-Paper-Scissors, Kuhn Poker, etc.)
+
+#### Equilibrium Computation
+- **Support Enumeration**: Exact solver for all Nash equilibria
+- **Linear Programming**: Efficient solver for zero-sum games
+- **Correlated Equilibrium**: Welfare-maximizing coordination mechanisms
+- **Stackelberg Equilibrium**: Leader-follower games and security applications
+
+#### Regret Minimization
+- **Regret Matching**: Online learning with no-regret guarantees
+- **CFR (Counterfactual Regret Minimization)**: State-of-the-art for large imperfect information games
+- Used in superhuman poker AI (Libratus, Pluribus)
+
+#### Game Tree Search
+- **MCTS (Monte Carlo Tree Search)**: UCT-based search used in AlphaGo
+- **Minimax with Alpha-Beta Pruning**: Classic adversarial search
+- Optimized for perfect information games
+
+#### Auction Mechanisms
+- **First-Price and Second-Price (Vickrey) Auctions**: Single-item auctions
+- **VCG (Vickrey-Clarke-Groves)**: Truthful combinatorial auctions
+- Demonstrates mechanism design principles
+
+#### Social Choice
+- **Voting Systems**: Plurality, Borda count, approval voting, instant runoff
+- **Condorcet Methods**: Finding majority-preferred candidates
+- Illustrates Arrow's impossibility theorem and strategic voting
+
+#### Multi-Agent Learning
+- **Fictitious Play**: Classic learning dynamics in repeated games
+- **Q-Learning**: Value-based reinforcement learning for games
+- Convergence analysis and equilibrium finding
+
+#### Evolutionary Game Theory
+- **Replicator Dynamics**: Models evolution of strategy frequencies in populations
+- **ESS (Evolutionarily Stable Strategy)**: Analysis of evolutionary stability
+- Classic games: Hawk-Dove, Rock-Paper-Scissors population dynamics
+
+#### Cooperative Games
+- **Shapley Value**: Fair allocation based on marginal contributions
+- **Coalitional Games**: Glove game, weighted voting, airport cost-sharing
+- Applications in ML interpretability (SHAP values)
+
+#### Matching Markets
+- **Gale-Shapley Algorithm**: Stable matching via deferred acceptance
+- **Stable Marriage Problem**: Two-sided matching with preferences
+- Real-world applications: Medical residency (NRMP), school choice
+
+#### Multi-Armed Bandits
+- **UCB1**: Upper Confidence Bound for stochastic bandits (O(log T) regret)
+- **EXP3**: Exponential-weight algorithm for adversarial settings
+- Applications: Clinical trials, online advertising, recommendation systems
+
+#### Repeated Games
+- **Classic Strategies**: Tit-for-Tat, Grim Trigger, Pavlov, Always Cooperate/Defect
+- **Tournament Simulation**: Round-robin competition framework
+- Axelrod tournaments and the emergence of cooperation
+
+Each implementation includes:
+- Comprehensive documentation and references
+- Complexity analysis
+- Example usage and demonstrations
+- Educational focus on clarity and correctness
+
+See `Codes/README.md` for detailed usage instructions and `Codes/examples.py` for comprehensive demonstrations.
+
 ## Key Topics Covered
 
 ### Core Game Theory Concepts
