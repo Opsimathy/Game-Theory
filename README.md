@@ -77,6 +77,53 @@ The `Seminar/` directory contains research papers on cutting-edge topics in:
 - Game-theoretic analysis and applications
 - Advanced algorithmic techniques
 
+### 💻 Codes
+
+The `Codes/` directory contains well-documented Python implementations of fundamental algorithms:
+
+#### Game Representations
+- Normal-form (matrix) games
+- Extensive-form (game tree) games
+- Classic game examples (Prisoner's Dilemma, Rock-Paper-Scissors, Kuhn Poker, etc.)
+
+#### Equilibrium Computation
+- **Support Enumeration**: Exact solver for small games
+- **Linear Programming**: Efficient solver for zero-sum games
+- Finds all Nash equilibria in two-player games
+
+#### Regret Minimization
+- **Regret Matching**: Online learning with no-regret guarantees
+- **CFR (Counterfactual Regret Minimization)**: State-of-the-art for large imperfect information games
+- Used in superhuman poker AI (Libratus, Pluribus)
+
+#### Game Tree Search
+- **MCTS (Monte Carlo Tree Search)**: UCT-based search used in AlphaGo
+- **Minimax with Alpha-Beta Pruning**: Classic adversarial search
+- Optimized for perfect information games
+
+#### Auction Mechanisms
+- **First-Price and Second-Price (Vickrey) Auctions**: Single-item auctions
+- **VCG (Vickrey-Clarke-Groves)**: Truthful combinatorial auctions
+- Demonstrates mechanism design principles
+
+#### Social Choice
+- **Voting Systems**: Plurality, Borda count, approval voting, instant runoff
+- **Condorcet Methods**: Finding majority-preferred candidates
+- Illustrates Arrow's impossibility theorem and strategic voting
+
+#### Multi-Agent Learning
+- **Fictitious Play**: Classic learning dynamics in repeated games
+- **Q-Learning**: Value-based reinforcement learning for games
+- Convergence analysis and equilibrium finding
+
+Each implementation includes:
+- Comprehensive documentation and references
+- Complexity analysis
+- Example usage and demonstrations
+- Educational focus on clarity and correctness
+
+See `Codes/README.md` for detailed usage instructions and `Codes/examples.py` for comprehensive demonstrations.
+
 ## Key Topics Covered
 
 ### Core Game Theory Concepts
