@@ -26,6 +26,7 @@ The `Books/` directory contains foundational and advanced textbooks covering:
 - **Steven Tadelis** - Game Theory: An Introduction
 - **Fudenberg & Tirole** - Game Theory
 - **Maschler, Solan & Zamir** - Game Theory
+- **Bernhard von Stengel** - Game Theory Basics
 
 #### Algorithmic and Computational Perspectives
 - **Algorithmic Game Theory** - Comprehensive coverage of computational aspects
@@ -228,4 +229,4 @@ This repository contains links to and collections of academic resources. Please 
 
 ---
 
-*Last Updated: November 2025*
+*Last Updated: December 2025*
