@@ -1,6 +1,6 @@
 # Game Theory
 
-A curated collection of resources on game theory, mechanism design, and social choice theory, with a focus on their algorithmic, computational, and multi-agent learning aspects.
+A personal collection of resources on game theory, mechanism design, and social choice theory, with a focus on their algorithmic and computational aspects, as applied to economics and computer science.
 
 ## Purpose and Motivation
 
@@ -36,13 +36,8 @@ The `Books/` directory contains foundational and advanced textbooks covering:
 
 #### Specialized Topics
 - **Auction Theory** - Mechanism design for auctions
-- **Microeconomic Theory** - Economic foundations
 - **Population Games and Evolutionary Dynamics** - Evolutionary game theory
 - **Multi-Agent Reinforcement Learning** - Learning in strategic environments
-
-#### Supporting Materials
-- **Introduction to Algorithms** - Algorithmic foundations
-- **Fourier Analysis** - Mathematical tools
 
 ### 📝 Notes
 
@@ -63,20 +58,16 @@ Topics covered include:
 - Mechanism design
 - Team games and certificates
 
-#### CS364B: Advanced Topics
-Lecture materials covering advanced mechanism design and algorithmic game theory topics (Lectures 21-40)
+#### CS364A / CS364B: Algorithmic Game Theory
+Lecture materials covering advanced mechanism design and algorithmic game theory topics
 
 #### Additional Resources
-- **A Modern Introduction to Online Learning** - Online learning algorithms and regret minimization
-
-### 🎓 Seminar
-
-The `Seminar/` directory contains research papers on cutting-edge topics in:
-- Online Markov Decision Processes
-- Policy optimization for Markov games
-- Learning algorithms (V-learning, Q-learning)
-- Game-theoretic analysis and applications
-- Advanced algorithmic techniques
+- **A Modern Introduction to Online Learning**
+- **AI, Games, and Markets**
+- **Dynamics of Learning and Iterated Games**
+- **Games, Markets, and Online Learning**
+- **Learning Theory from First Principles**
+- **Multiagent Systems**
 
 ### 💻 Codes
 
@@ -209,24 +200,3 @@ See `Codes/README.md` for detailed usage instructions and `Codes/examples.py` fo
 - Zinkevich et al. - Regret Minimization in Games with Incomplete Information (2007)
 - Silver et al. - Mastering the Game of Go with Deep Neural Networks (2016)
 - Brown & Sandholm - Superhuman AI for Multiplayer Poker (2019)
-
-## Contributing
-
-This is a personal collection of resources. If you find it useful and have suggestions for additional high-quality resources, feel free to open an issue or submit a pull request.
-
-## Related Topics
-
-For those interested in exploring related areas:
-- **Reinforcement Learning**: Single-agent sequential decision making
-- **Optimization Theory**: Mathematical programming and duality theory
-- **Probability and Statistics**: Stochastic processes, Bayesian inference
-- **Complexity Theory**: Computational hardness of equilibrium problems
-- **Distributed Systems**: Consensus protocols and Byzantine agreement
-
-## License
-
-This repository contains links to and collections of academic resources. Please respect the copyright and licensing terms of individual resources. Use for educational and research purposes.
-
----
-
-*Last Updated: December 2025*
